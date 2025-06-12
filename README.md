@@ -34,7 +34,7 @@ cd random-movie-quote-generator
 npm install
 ```
 
-3. ** Set up your API Ninjas key: **
+3. **Set up your API Ninjas key:**
    Create a .env file in the root directory
 
 ```bash
