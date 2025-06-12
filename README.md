@@ -1,16 +1,76 @@
-# React + Vite
+# 🎬 Random Movie Quote Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that fetches random movie quotes using the [API Ninjas Quotes API](https://api-ninjas.com/api/quotes). The app demonstrates:
 
-Currently, two official plugins are available:
+- Axios for handling API requests
+- Framer Motion for smooth quote transitions
+- TailwindCSS for modern UI design
+- Basic loading state and error handling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo
 
-## Expanding the ESLint configuration
+[Optional: Add your live demo link here if you deploy it]
 
-# If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Technologies Used
 
-# random-quote-generator
+- React
+- Axios
+- TailwindCSS
+- Framer Motion
+- API Ninjas Quotes API
 
-A simple React app that fetches random movie quotes using the API Ninjas API. Includes Axios for API calls, Framer Motion for smooth transitions, and TailwindCSS for clean UI styling.
+## 📦 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/random-movie-quote-generator.git
+cd random-movie-quote-generator
+```
+
+2. **Install Dependencis**
+
+```bash
+npm install
+```
+
+3. ** Set up your API Ninjas key: **
+   Create a .env file in the root directory
+
+```bash
+REACT_APP_API_NINJAS_KEY=your_api_key_here
+
+```
+
+4. **Start the app:**
+
+```bash
+npm start or npm run dev
+```
+
+## 🌟 Features
+
+- Generates random movie quotes.
+- Smooth fade animations on every new quote using Framer Motion.
+- Loading spinner while fetching data.
+- Clean UI built with TailwindCSS.
+- Button disables while fetching to avoid multiple requests.
+
+## ⚠️ Notes
+
+- This project uses a free plan of API Ninjas; make sure to respect their usage limits.
+- Keep your API key secure and don't expose it in public repositories.
+
+## 📷 Screenshots
+
+[Optional: add screenshots here if you want]
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+## 🔗 Acknowledgements
+
+- [API Ninjas](https://api-ninjas.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [TailwindCSS](https://tailwindcss.com/)
