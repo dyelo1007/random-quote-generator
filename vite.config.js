@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/random-quote-generator.git/",
+  base: "/random-quote-generator/",
   plugins: [react(), tailwindcss()],
 });
