@@ -61,10 +61,6 @@ npm start or npm run dev
 - This project uses a free plan of API Ninjas; make sure to respect their usage limits.
 - Keep your API key secure and don't expose it in public repositories.
 
-## 📷 Screenshots
-
-[Optional: add screenshots here if you want]
-
 ## 📄 License
 
 This project is open-source and available under the MIT License.
